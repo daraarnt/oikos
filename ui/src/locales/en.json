@@ -1144,5 +1144,14 @@
   "settings.poiCacheMaxAgeDays": "Trust found places for",
   "settings.poiCacheMaxAgeDaysHelp": "How long an Overpass answer is reused before asking again. Shops move rarely, and re-asking often is what gets an instance blocked.",
   "settings.routingMinutesSuffix": "min",
-  "settings.toastRoutingInvalid": "Every value here must be a whole number inside its range."
+  "settings.toastRoutingInvalid": "Every value here must be a whole number inside its range.",
+  "oikos.csc.title": "CSC siting screen",
+  "oikos.csc.run": "Run 200 m screen",
+  "oikos.csc.refresh": "Refresh screen",
+  "oikos.csc.intro": "Checks available OpenStreetMap data for schools, childcare, youth facilities and playgrounds in a 200 m area.",
+  "oikos.csc.loading": "Checking OpenStreetMap data …",
+  "oikos.csc.status.reviewRequired": "A protected place was found in the 200 m screen",
+  "oikos.csc.status.clearOnMapScreen": "No OpenStreetMap match was found within 200 m",
+  "oikos.csc.status.unavailable": "The siting screen is unavailable right now",
+  "oikos.csc.disclaimer": "Initial screen under KCanG § 12(1) no. 6, not legal clearance: distance is straight-line; property and facility pins can be approximate. Verify entrances, complete facilities and local requirements on site and with the responsible authority."
 }

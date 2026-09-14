@@ -13,9 +13,7 @@ import {
   IconSidebar,
   IconServerStroked,
 } from '@douyinfe/semi-icons';
-import logo from '../../assets/logo.png';
-import logoWhite from '../../assets/logo_white.png';
-import heart from '../../assets/heart.png';
+import Logo from '../logo/Logo.jsx';
 import Logout from '../logout/Logout.jsx';
 import Donate from '../donate/Donate.jsx';
 import NewsHistory from '../news/NewsHistory.jsx';
@@ -25,7 +23,6 @@ import './Navigate.less';
 import { useScreenWidth } from '../../hooks/screenWidth.js';
 import { useTranslation } from '../../services/i18n/i18n.jsx';
 import { navTreeFor, resolveActiveKey } from './navModel.js';
-import { currentTheme } from '../../services/theme/theme.js';
 
 /**
  * The icon each top-level entry carries. Keyed by nav key so the tree itself stays free of JSX.
@@ -92,12 +89,7 @@ export default function Navigation({ isAdmin }) {
       }}
       header={
         <div className="navigate__header">
-          {/* The heart reads on either theme; the wordmark does not, so it has two cuts. */}
-          <img
-            src={collapsed ? heart : currentTheme() === 'dark' ? logoWhite : logo}
-            width={collapsed ? 30 : 160}
-            alt="Fredy Logo"
-          />
+          <Logo width={collapsed ? 34 : 160} />
         </div>
       }
       footer={

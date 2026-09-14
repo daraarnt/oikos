@@ -1,0 +1,41 @@
+@import '../../tokens.less';
+
+.csc-siting-screen {
+  margin-top: @space-5;
+  padding: @space-4;
+  border: 1px solid @color-border;
+  border-left: 3px solid @color-accent;
+  background: @color-fill-subtle;
+
+  &__head {
+    display: flex;
+    gap: @space-3;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__intro,
+  &__note {
+    display: block;
+    margin-top: @space-2;
+    line-height: 1.5;
+  }
+
+  &__loading {
+    display: flex;
+    align-items: center;
+    gap: @space-2;
+    margin-top: @space-3;
+  }
+
+  .semi-banner {
+    margin-top: @space-3;
+  }
+
+  &__matches {
+    display: flex;
+    flex-wrap: wrap;
+    gap: @space-2;
+    margin-bottom: @space-2;
+  }
+}

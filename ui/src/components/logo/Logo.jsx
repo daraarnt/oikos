@@ -3,10 +3,6 @@
  * Licensed under Apache-2.0 with Commons Clause and Attribution/Naming Clause
  */
 
-import logo from '../../assets/logo.png';
-import logoWhite from '../../assets/logo_white.png';
-import { currentTheme } from '../../services/theme/theme.js';
-
 import './Logo.less';
 
 /**
@@ -24,7 +20,11 @@ import './Logo.less';
  * @param {boolean} [props.white=false] The surface behind the logo is dark in the dark theme.
  * @returns {React.ReactElement}
  */
-export default function Logo({ width = 350, white = false } = {}) {
-  const src = white && currentTheme() === 'dark' ? logoWhite : logo;
-  return <img src={src} width={width} className="logo" alt="Fredy Logo" />;
+export default function Logo({ width = 350 } = {}) {
+  return (
+    <div className="logo" style={{ width }} aria-label="Oikos by aarnt">
+      <span className="logo__name">oikos</span>
+      <span className="logo__byline">by aarnt</span>
+    </div>
+  );
 }

@@ -1144,5 +1144,14 @@
   "settings.poiCacheMaxAgeDays": "Gefundene Orte gültig für",
   "settings.poiCacheMaxAgeDaysHelp": "Wie lange eine Overpass-Antwort wiederverwendet wird. Läden ziehen selten um, und häufiges Nachfragen ist genau das, wofür Instanzen gesperrt werden.",
   "settings.routingMinutesSuffix": "Min.",
-  "settings.toastRoutingInvalid": "Jeder Wert hier muss eine ganze Zahl innerhalb seines Bereichs sein."
+  "settings.toastRoutingInvalid": "Jeder Wert hier muss eine ganze Zahl innerhalb seines Bereichs sein.",
+  "oikos.csc.title": "CSC-Standortscreening",
+  "oikos.csc.run": "200-m-Screening starten",
+  "oikos.csc.refresh": "Screening aktualisieren",
+  "oikos.csc.intro": "Prüft verfügbare OpenStreetMap-Daten auf Schulen, Kinderbetreuung, Jugendeinrichtungen und Spielplätze im 200-m-Umfeld.",
+  "oikos.csc.loading": "OpenStreetMap-Daten werden geprüft …",
+  "oikos.csc.status.reviewRequired": "Geschützte Einrichtung im 200-m-Screening gefunden",
+  "oikos.csc.status.clearOnMapScreen": "Im OpenStreetMap-Screening kein Treffer innerhalb von 200 m",
+  "oikos.csc.status.unavailable": "Standortscreening momentan nicht möglich",
+  "oikos.csc.disclaimer": "Vorprüfung nach KCanG § 12 Abs. 1 Nr. 6, keine rechtliche Freigabe: Entfernung ist Luftlinie; Objekt- und Einrichtungspins können ungenau sein. Eingangsbereiche, vollständige Einrichtungen und lokale Vorgaben vor Ort bzw. mit der zuständigen Behörde prüfen."
 }

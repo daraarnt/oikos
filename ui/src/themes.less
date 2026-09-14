@@ -35,10 +35,12 @@
   // product still reads as Fredy, but roughly twenty points less saturation - the old one drew the
   // eye harder than any single control on a page deserves, and put every primary button in the same
   // register as a delete confirmation.
-  --f-accent: #c0564a;
-  --f-accent-rgb: 192 86 74;
-  --f-accent-dim: #a1443a;
-  --f-accent-glow: rgb(192 86 74 / 10%);
+  // Aarnt's primary green is the active/action colour; pink stays a contextual
+  // surface accent rather than turning the information-dense product into a poster.
+  --f-accent: #2a8668;
+  --f-accent-rgb: 42 134 104;
+  --f-accent-dim: #1f6c53;
+  --f-accent-glow: rgb(42 134 104 / 12%);
 
   // Text
   --f-text: #efefef;
@@ -104,9 +106,9 @@
   // The three lights behind the Donate button. Their own tokens rather than the palette's: an
   // aurora only reads as light when it is lighter than what it sits on, so on paper it becomes a
   // pastel wash of the same three hues rather than three dark smudges.
-  --f-aurora-1: #c0564a;
-  --f-aurora-2: rgb(157 143 201 / 70%);
-  --f-aurora-3: rgb(214 148 96 / 60%);
+  --f-aurora-1: #2a8668;
+  --f-aurora-2: rgb(228 151 195 / 48%);
+  --f-aurora-3: rgb(243 241 235 / 32%);
 
   // The panels that float over the map. Their own set because they sit on satellite imagery rather
   // than on a page, and need to stay legible over both.
@@ -132,10 +134,10 @@ body[theme-mode='light'] {
   // Two steps darker than the dark-theme accent. The same red that carries white text at 4.5:1 on
   // near-black falls to 4.4:1 against paper, which is the wrong side of AA for every primary button
   // in the app. Same hue, same family, one notch of lightness.
-  --f-accent: #b04a3f;
-  --f-accent-rgb: 176 74 63;
-  --f-accent-dim: #963d34;
-  --f-accent-glow: rgb(176 74 63 / 8%);
+  --f-accent: #23775a;
+  --f-accent-rgb: 35 119 90;
+  --f-accent-dim: #18533f;
+  --f-accent-glow: rgb(35 119 90 / 9%);
 
   --f-text: #1c1b1a;
   --f-muted: #63605d;
@@ -185,9 +187,9 @@ body[theme-mode='light'] {
   --f-gray-border: #d4d8de;
   --f-gray-bg: rgb(92 103 116 / 7%);
 
-  --f-aurora-1: #f2a99d;
-  --f-aurora-2: rgb(190 178 232 / 75%);
-  --f-aurora-3: rgb(246 196 146 / 70%);
+  --f-aurora-1: #23775a;
+  --f-aurora-2: rgb(228 151 195 / 60%);
+  --f-aurora-3: rgb(245 239 232 / 72%);
 
   --f-map-panel: rgb(255 255 255 / 95%);
   --f-map-panel-border: #dcdad6;

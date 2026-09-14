@@ -1,6 +1,8 @@
 @import './themes.less';
 @import './tokens.less';
 
+@import (css) url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=DM+Sans:wght@400;500;600;700&display=swap');
+
 body,
 html {
   margin: 0;
@@ -134,4 +136,33 @@ button:focus-visible,
   background: @color-scrim !important;
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
+}
+
+// The product remains Fredy's efficient tool UI, but interaction should feel
+// immediate and intentional rather than static. These are transform-only
+// transitions, so they stay cheap even when a listing map is open.
+.semi-button,
+.semi-navigation-item,
+.semi-card {
+  transition:
+    transform 130ms ease,
+    background-color 130ms ease,
+    border-color 130ms ease,
+    box-shadow 130ms ease !important;
+}
+
+.semi-button:not([disabled]):active {
+  transform: translateY(1px) scale(0.985);
+}
+
+.semi-card:hover {
+  border-color: rgb(@color-accent-rgb / 32%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .semi-button,
+  .semi-navigation-item,
+  .semi-card {
+    transition: none !important;
+  }
 }

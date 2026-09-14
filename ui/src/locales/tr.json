@@ -1129,5 +1129,14 @@
   "settings.poiCacheMaxAgeDays": "Bulunan yerler şu süre geçerli",
   "settings.poiCacheMaxAgeDaysHelp": "Bir Overpass yanıtının yeniden sorulmadan önce ne kadar kullanılacağı. Dükkânlar nadiren taşınır ve sık sorma, kurulumların engellenmesine yol açan şeydir.",
   "settings.routingMinutesSuffix": "dk",
-  "settings.toastRoutingInvalid": "Buradaki her değer, kendi aralığında tam sayı olmalıdır."
+  "settings.toastRoutingInvalid": "Buradaki her değer, kendi aralığında tam sayı olmalıdır.",
+  "oikos.csc.title": "CSC konum taraması",
+  "oikos.csc.run": "200 m taramasını başlat",
+  "oikos.csc.refresh": "Taramayı yenile",
+  "oikos.csc.intro": "200 m çevrede okul, çocuk bakımı, gençlik tesisi ve oyun alanları için mevcut OpenStreetMap verilerini kontrol eder.",
+  "oikos.csc.loading": "OpenStreetMap verileri kontrol ediliyor …",
+  "oikos.csc.status.reviewRequired": "200 m taramasında korunan bir yer bulundu",
+  "oikos.csc.status.clearOnMapScreen": "200 m içinde OpenStreetMap eşleşmesi bulunmadı",
+  "oikos.csc.status.unavailable": "Konum taraması şu anda kullanılamıyor",
+  "oikos.csc.disclaimer": "KCanG § 12(1) no. 6 kapsamında ön taramadır, hukuki onay değildir: mesafe kuş uçuşudur; konum iğneleri yaklaşık olabilir. Girişleri, tüm tesisleri ve yerel şartları yerinde ve yetkili makamla doğrulayın."
 }

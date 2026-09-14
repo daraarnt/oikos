@@ -64,6 +64,7 @@ import ListingFinanceCard from './components/ListingFinanceCard.jsx';
 import PriceHistoryChart from './components/PriceHistoryChart.jsx';
 import NearbyStops from '../../components/transit/NearbyStops.jsx';
 import ConnectivityCard from '../../components/connectivity/ConnectivityCard.jsx';
+import CscSitingScreen from '../../components/csc/CscSitingScreen.jsx';
 import TravelTimes from '../../components/transit/TravelTimes.jsx';
 import AddressEditor from './components/AddressEditor.jsx';
 import './ListingDetail.less';
@@ -841,6 +842,8 @@ export default function ListingDetail() {
                   </Text>
                 </>
               )}
+
+              {hasGeo && <CscSitingScreen listingId={listing.id} />}
 
               {/* The costing answers "can I have this?", which is the question asked right
                   after the price - so it comes before the sales copy, not after it. */}

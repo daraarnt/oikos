@@ -18,10 +18,14 @@
     min-height: 64px;
     flex-shrink: 0;
 
-    img {
+    .logo {
       transition:
         width @transition-fast,
         opacity @transition-fast;
+    }
+
+    .semi-navigation-collapsed & .logo__byline {
+      display: none;
     }
   }
 
